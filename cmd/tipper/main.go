@@ -1,10 +1,8 @@
 package main
 
-import (
-	"fmt"
-)
+import "tipper/command"
 
 func main() {
 
-	fmt.Println("hello world")
+	command.RootCmd.Execute()
 }
