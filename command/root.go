@@ -14,7 +14,7 @@ var (
 
 func init() {
 	RootCmd.PersistentFlags().Float32Var(&foodTotal, "food", 0, "food is total bill amount that you want a tip for (default value is 0)")
-	RootCmd.PersistentFlags().Float32Var(&tip, "tip", 0, "food is total bill amount that you want a tip for (default value is 0)")
+	RootCmd.PersistentFlags().Float32Var(&tip, "tip", 0, "tip is percentage of the food total you wish to tip (default value is 0)")
 
 }
 
